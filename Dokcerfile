@@ -1,0 +1,4 @@
+FROM centos
+RUN yum install firefox -y
+RUN yum install PackageKit-gtk3-module libcanberra-gtk2 -y
+CMD /usr/bin/firefox
